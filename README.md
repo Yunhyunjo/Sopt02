@@ -11,7 +11,7 @@
 
 ### ItemDecoration 
 
-=> 아이템 간에 margin을 주고 싶다면 사용하면 된다. getItemOffset을 이용하여 item의 margin 조절한다.
+=> 아이템 간에 margin을 주고 싶다면 사용하면 된다. getItemOffset을 이용하여 item의 margin 조절한다.(나는 bottom만 줌)
 
     class InstaItemDecoration(private val size: Int) : RecyclerView.ItemDecoration() {
         override fun getItemOffsets(
